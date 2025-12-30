@@ -20,8 +20,10 @@ def ProductOfArrayExceptSelf(array: list[int]):
 
 contributions = [1, 2, 3, 4]
 # contributions = [-1, 1, 0, -3, 3]
+# contributions = [5, 6, 7, 1]
 print(ProductOfArrayExceptSelf(contributions))
 # Output1: impact = [24, 12, 8, 6]
 # Output2: impact = [0, 0, 9, 0, 0]
+# Output3: impact = [42, 35, 30, 0]
 
     
